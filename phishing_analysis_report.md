@@ -1,6 +1,6 @@
 # Phishing Analysis Report
 
-## Email Sample (adapted for safety)
+## Email Sample
 From: security@paypal-support.com  
 Subject: Urgent: Verify Your Account Immediately
 
@@ -59,4 +59,5 @@ This sample contains multiple classic phishing indicators (spoofed sender, fake 
 
 **Analyst:** Yug Saxena  
 **Date:** October 22, 2025
+
 
