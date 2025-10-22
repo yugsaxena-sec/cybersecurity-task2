@@ -41,7 +41,8 @@ PayPal Security Team
    - Slightly awkward phrasing and punctuation, another red flag commonly seen in phishing emails.
 
 7. **Header analysis (if available)**  
-   - If full header data is available, it should be pasted into MXToolbox Header Analyzer. Look for mismatched `Return-Path`, suspicious `Received` hops, or SPF/DKIM/DMARC failures to confirm spoofing.
+   - If full header data is available, it should be pasted into MXToolbox Header Analyzer. Look for mismatched `Return-Path`, suspicious `Received` hops, or SPF/DKIM/DMARC failures to confirm spoofing. (Since this phishing sample was taken from an online source and not received in an actual mailbox, the original email header data is not available for analysis.
+Normally, I would use MXToolbox to check the header for mismatched return-paths, suspicious routing, and SPF/DKIM/DMARC failures, which can provide strong technical proof of spoofing.)
 
 ---
 
@@ -58,3 +59,4 @@ This sample contains multiple classic phishing indicators (spoofed sender, fake 
 
 **Analyst:** Yug Saxena  
 **Date:** October 22, 2025
+
